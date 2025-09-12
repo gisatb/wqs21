@@ -3,6 +3,8 @@ import pandas as pd
 import numpy as np
 
 st.title('Uber pickups in NYC')
+st.sidebar.info("Contact")
+st.sidebar.markdown('[Twiter]')
 
 DATE_COLUMN = 'date/time'
 DATA_URL = ('https://s3-us-west-2.amazonaws.com/'
